@@ -1,0 +1,9 @@
+Date		Start	Stop	Activity	Comments
+14/09/18	19:30	20:30	Reading		Investigate what has to be done
+14/09/18	20:30	22:00	Coding		Implement init and add for subset 0
+15/09/18	10:00	14:00	Coding		Implement subset 0 except no change commit
+15/09/18	14:00	15:00	Debugging	Correct all error messages as expected
+15/09/18	15:30	16:30	Coding		Completely implement subset 0, not efficiently enough though
+15/09/18	17:30	18:00	Debugging	Fix possible error detection bug
+16/09/18	10:00	18:00	Coding, Thinking	Implement commit -a -m. Invertigate the expected method of rm and the detection of anomalies
+19/09/18	20:00	23:00	Coding, Analysing	Basically implement rm and rm --cached, still need to adopt to different circumstances
