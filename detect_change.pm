@@ -7,9 +7,9 @@ use File::Compare;
 use Exporter;
 
 our @ISA = qw(Exporter);
-our @EXPORT = qw(any_change change_after_add diff_to_repo);
+our @EXPORT = qw(any_change index_n_repo dir_n_index diff_in_index);
 
-sub diff_to_repo {
+sub index_n_repo {
 	my ($file, $version) = @_;
 	my $filename = ".legit/index/$file";
 	my $file_in_repo = ".legit/version.$version/$file";
@@ -17,7 +17,16 @@ sub diff_to_repo {
 	return 0;
 }
 
-sub change_after_add {
+sub dir_n_index {
+	my ($file) = @_;
+	my $filename = "./$file";
+	my $file_in_index = ".legit/index/$file";
+	#return 1 if (! -e $file_in_index);
+	return 1 if (compare("$filename", "$file_in_index") == 1);
+	return 0;
+}
+
+sub diff_in_index {
 	my ($file) = @_;
 	my $filename = "./$file";
 	my $file_in_index = ".legit/index/$file";
