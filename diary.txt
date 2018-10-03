@@ -10,3 +10,9 @@ Date		Start	Stop	Activity	Comments
 21/09/18    14:30   19:00   Coding      Implement rm and status, finish subset1, list all possible circumstances for status and rm
 26/09/18    13:00   22:00   Analysing, Coding   Try to figure it out the concept of subset2
 27/09/18    11:00   21:00   Coding      Implement subset2 branch and checkout, pass testcase 17~24
+29/09/18    15:00   19:00   Searching   Investigating merging and find Algorithm::Merge through cpan -l, major breakthrough for all that
+30/09/18    11:00   13:00   Coding      Basically implement merge, pass all the testcases except subset2_29
+30/09/18    14:00   15:00   Coding      Basically implement merge, pass all the testcases, need some modifications though
+01/10/18    15:30   19:30   Comment     Writing comment and modify the style
+02/10/18    15:00   24:00   Debug       Writing test script
+03/10/18    All Day         Debug       Crazily writing test script and debug
